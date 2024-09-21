@@ -1,0 +1,96 @@
+//Q.No. 2
+//Write a program to print the area of two rectangles having sides (4,5) and (5,8) 
+//respectively by creating a
+//class named &#39;Rectangle&#39; with a function named &#39;Area&#39; which returns the area. Length
+#include<iostream>
+using namespace std;
+class Rectangle{
+    private:
+	int length,breadth,area;
+	public:
+		void areas(int l,int b)
+		{  	
+			length=l;
+			breadth=b;
+			area=length*breadth;
+		}
+			 
+	   void display()
+	   {
+	   	cout<<"\narea of rectangle: "<<area;
+	   }
+};
+ int main()
+{ 
+  Rectangle rec1,rec2;
+	
+	rec1.areas(4,5);
+	rec1.display();
+	rec2.areas(5,8);
+	rec2.display();
+
+}
+output
+
+area of rectangle: 20
+area of rectangle: 40
+//Write a C++ program to create a class Student with data members Roll_No, 
+//Student_Name, Class. Write
+//member functions to accept and display Student information also display 
+//count of students. (Use Static
+//data member and Static member function)
+#include<iostream>
+using namespace std;
+class student{
+	private:
+		 static int roll_no;
+	 static	string student_name;
+	 static	int Class;
+	public :
+		void accept(int roll_no,string student_name,int Class)
+		{
+			cout<<"\nenter the rollno:"<<roll_no;
+			cin>>roll_no;
+			cout<<"\nenter the name:"<<student_name;
+			cin>>student_name;
+			cout<<"\nenter the Class:"<<Class;
+			cin>>Class;
+			
+			}
+			void display(){
+				cout<<"\nstudent rollno is"<<roll_no;
+				cout<<"\nand name is"<<student_name;
+				cout<<"\n In class"<<Class;			
+				}
+	        void count (int counts)
+	        {
+	        	int size,counts=0;
+	        	for(i=0;i<)
+	        	s1.accept();
+	        	count++
+			}
+};
+main()
+{  int size,i,count;
+
+	student s1;
+	s1.accept(4,reena,7);
+	s1.count()
+	s1.display();
+	cout<<"\nnumber of students are:"
+}
+//Student Database Management System
+//File handling has been effectively used for each feature of this project
+//Operation
+//1. Add Records
+//2. List Records
+//3. Modify Records
+//4. Delete Records
+#include<iostream>
+#include<fstream>
+using namespace std;
+main()
+{
+	ofstream student_database("\nStudent Database Management System.txt");
+	
+}
